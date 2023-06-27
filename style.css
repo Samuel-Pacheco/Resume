@@ -24,3 +24,11 @@ p[Skills]{
     font-size: 18px;
     font-family: 'Arvo', serif;
 }
+
+.container-background {
+    background-image: url("https://img.freepik.com/free-vector/cyber-technology-background_23-2148390330.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
