@@ -1,0 +1,90 @@
+h1{
+    text-size-adjust: 18px;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    color: #f6f5f5;
+}
+
+.jumbotron-with-icon p {
+    font-family: 'Roboto Slab', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+.gradient-background{
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/151/829/original/blue-lights-matrix-background-vector.png");
+
+   
+}
+
+.jumbotron-with-icon{
+    background-image: url("https://img.freepik.com/free-vector/cyber-technology-background_23-2148390330.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.text-body-secondary{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#content h1{
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bolder;
+}
+
+.card-body p{
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bolder;
+    color: #0c0c0c;
+}
+.featurette-heading {
+    margin-top: 7rem;
+    font-size: 50px;
+    letter-spacing: -.05rem;
+}
+.lh-1 {
+    line-height: 1!important;
+}
+.fw-normal {
+    font-weight: 400!important;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
